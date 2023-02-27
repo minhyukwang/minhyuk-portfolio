@@ -8,18 +8,18 @@ export default function Footer() {
         <div className="text-center">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2022{" "}
-            <a className="hover:underline cursor-pointer">TreeNami Studio</a>.
+            <a className="hover:underline cursor-pointer">Minhyuk Wang Profile</a>.
             All Rights Reserved.
           </span>
         </div>
         <div>
           <ul className="justify-center flex flex-wrap items-center mt-2 mb-2 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
             <li>
-              <Link href="/exhibitions">
-                <a className="mr-4 hover:underline cursor-pointer md:mr-6 ">
-                  Exhibitions
-                </a>
-              </Link>
+              {/*<Link href="/exhibitions">*/}
+              {/*  <a className="mr-4 hover:underline cursor-pointer md:mr-6 ">*/}
+              {/*    Exhibitions*/}
+              {/*  </a>*/}
+              {/*</Link>*/}
             </li>
             <li>
               <Link href="/contact">
